@@ -124,7 +124,9 @@ const styles = StyleSheet.create({
     color:'white'
   },
   btn:{
-
+    flex:1,
+    justifyContent:'center',
+    alignItems:'center',
   },
   result:{
     flex:2,
@@ -141,8 +143,6 @@ const styles = StyleSheet.create({
   row1:{
     flex:1,
     flexDirection:'row',
-    justifyContent:'space-around',
-    alignItems:'center',
   },
   buttons:{
     flex:7,
@@ -155,8 +155,6 @@ const styles = StyleSheet.create({
   },
   operations:{
     flex:1,
-    alignItems:'center',
-    justifyContent:'space-around',
     backgroundColor:'orange',
   },
 });
